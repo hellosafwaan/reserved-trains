@@ -37,7 +37,6 @@ def manipulateTable() :
     dfs['ARRIVAL'] = dfs['ARRIVAL'].replace(['First'],'SRC')
     dfs['ARRIVAL'] = dfs['ARRIVAL'].replace(['.'],':')
     dfs['DEPARTURE'] = dfs['DEPARTURE'].replace(['Last'],'DST')
-    dfs.to_datetime('ARRIVAL')
     dfs.to_csv(f_name, index=False)
 
 
