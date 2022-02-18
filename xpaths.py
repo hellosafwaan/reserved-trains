@@ -15,3 +15,8 @@ xpaths = {
     'backButton': '/html/body/div[1]/div/header[2]/div/button[2]',  
     'headersData': '/html/body/div[1]/div/div/div[2]/div/div/div[1]/div[2]/div/table/thead/tr/th[{}]/span/div'
 }
+
+sh_xpaths = {
+    'trainNumInput': '//*[@id="train"]'
+
+}
